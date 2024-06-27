@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hey","How are you","Is anyone there?","Hello","Good day","hy"],
+      "responses": ["Hey :-)","Hello, thanks for visiting","Hi there, what can I do for you?","Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": ["Which items do you have?","What kinds of items are there?","What do you sell?"],
+      "responses": ["We sell coffee and tea","We have coffee and tea"]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["Do you take credit cards?","Do you accept Mastercard?","Can I pay with Paypal?","Are you cash only?"],
+      "responses": ["We accept VISA, Mastercard and Paypal","We accept most major credit cards, and Paypal"]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["How long does delivery take?","How long does shipping take?","When do I get my delivery?"],
+      "responses": ["Delivery takes 2-4 days","Shipping takes 2-4 days"]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke!","Tell me something funny!","Do you know a joke?"],
+      "responses": ["Why did the hipster burn his mouth? He drank the coffee before it was cool.","What did the buffalo say when his son left for college? Bison."]
+    },
+	{
+      "tag": "Internet_issues",
+      "patterns": ["I have internet Issue","My internet is not working","Internet is not working","Internet has stop working","Internet is not showing","Internet is slow","Internet issue","Internet is not working properly"],
+      "responses": ["Please check eternet cable is properly connected. If it is connected  properly and light is showing behind CPU then restart the System.If it is not working then also raise a ticket so Engineer can be assigned to resolve the issue"]
+    },
+	{
+	 "tag": "Display_issues",
+	 "patterns": ["I have Display Issue","My Display is not working","Display is not working","Display has stop working","Display is not showing","Display is black","Display issue","Display is not working properly","Display is blinking","can't see one side of display","Display is flickering","Strips are on display"],
+	 "responses": ["Please check VJI cable is properly connected. If it is connected  properly then restart the System once.If it is not working then also raise a ticket so Engineer can be assigned to resolve the issue"]
+    },
+	{
+	 "tag": "System_issues",
+	 "patterns": ["I have system Issue its not starting","My System is not working","System is not working","System has stop working","System is not showing","System is not starting","System issue","System is not working properly","System is not switching ON","System is shutting down automatically"],
+	 "responses": ["Please check all  the wire/cable is properly connected. If it is connected  properly then restart the System ones, if not then try force restart .Click Start button and then click Power button to force restart System.If it is not working then also raise a ticket so Engineer can be assigned to resolve the issue"]
+    },
+	{
+	 "tag": "System_working_slow_issues",
+	 "patterns": ["I have system Issue,","My System is working slow","System is  working slow","System has  working very slow","System is not working normal","System is slow","System is working very slow"],
+	 "responses": ["Please check all  the wire/cable is properly connected. If it is connected  properly then restart the System ones, if not then try force restart.If it is not working then also raise a ticket so Engineer can be assigned to resolve the issue"]
+	},
+	{
+	 "tag": "System_lagging_issues",
+	 "patterns": ["I have system lagging issue,","My System is lagging","System is  lagging","System has  been lagging from start","System is lagging ","System lagging","System is hanging","I have system hanging issue,","My System is hanging","System has  been hanging from start","System is hanging","System hanging"],
+	 "responses": ["Close all the background softwares and restart the system.If it is not working then also raise a ticket so Engineer can be assigned to resolve the issue"]
+	},
+	{
+	 "tag": "Headset_issues",
+	 "patterns": ["I have Headset Issue","My Headset is not working","Headset is not working","Headset has stop working","Headset is not showing","Headset is slow","Headset issue","Headset is not working properly","Can't hear the voice","My headset is making noise","Can't hear the sound from one side"],
+	 "responses": ["Please check if the mute button is on,if it is on please off and if still not working try upluging and plug again.If it is not working then also raise a ticket so Engineer can be assigned to resolve the issue"]
+	},
+  {
+    "tag": "outlook_issues",
+    "patterns": ["I have Outlook Issue","My Outlook is not working","Outlook is not working","Outlook has stop working","Outlook is not working properly","Outlook issue"],
+    "responses": ["Please close the outlook and then start again, If not solved restart the System and login again if you update the password and check again.If it is not working then also raise a ticket so Engineer can be assigned to resolve the issue "]
+    },
+  {
+    "tag": "Teams_issues",
+    "patterns": ["I have Teams Issue","My Teams is not working","Teams is not working","Teams has stop working","Teams is not working properly"],
+    "responses": ["Please close the Teams and then start again, If not solved restart the System and login again if you update the password and check again.If it is not working then also raise a ticket so Engineer can be assigned to resolve the issue "]
+  }
+  ]
+}
